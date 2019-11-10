@@ -1,0 +1,103 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body
+{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(lion.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.textBox ::-webkit-input-placeholder
+{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgba(255, 255, 255, 0.788);
+}
+
+.textBox input[type="text"]
+{
+    font-family: monospace;
+}
+
+.loginBox
+{
+    width: 280px;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-70%);
+    color: white;
+}
+
+.loginBox h1
+{
+   color: rgb(0, 0, 0);
+   float: left; 
+   font-size: 45px;
+   font-weight: 700;
+   letter-spacing: 1px;
+   border-bottom: 5px solid #e6b800;
+   margin-bottom: 50px;
+   padding:13px 0;
+   -webkit-text-stroke-width: 0.8px;
+   -webkit-text-stroke-color: rgba(179, 179, 179, 0.767);
+   
+}
+
+.textBox
+{
+    width: 100%;
+    overflow: hidden;
+    font-size:20px;
+    padding: 8px 0;
+    margin:8px 0;
+    border-bottom:4px solid #42a70896;
+}
+
+.textBox i
+{
+    width: 26px;
+    float: left;
+    text-align:center;
+    
+}
+
+.textBox input
+{
+    border:none;
+    outline: none;
+    background:none;
+    color: white;
+    font-size: 20px;
+    width:80%;
+    float: left;
+    margin:0 10px;
+}
+
+.loginButton
+{
+    font-family: Tahoma, sans-serif;
+    font-size: 18.5px;
+    
+    width: 100%;
+    background: rgba(210, 227, 252, 0.24);
+    border: 2px solid #00000067;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.loginButton:hover
+{
+    transition: .7s;
+    border: 2px solid #727171b2;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: rgba(255, 255, 255, 0.685);
+
+}
+
